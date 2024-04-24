@@ -1,0 +1,63 @@
+
+
+
+.homeDisplay{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 10% 10% 10% 10% ;
+    
+
+
+}
+
+.homePic{
+    height: 100%;
+    width: 100%px;
+    grid-row: 1 / 5;
+    grid-column: 1 / 4;
+}
+
+.homeTitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 500%;
+    color:  rgb(215, 215, 247);
+    text-align: center;
+
+    
+}
+
+.homeHeading{
+    grid-row: 2;
+    grid-column: 1 / 4 ;
+}
+
+
+.button{
+    background-color: rgb(166, 166, 207);
+    border-radius: 20px;
+    
+}
+
+.formD{
+   
+    align-items: center;
+    justify-content: center;
+    grid-row: 4;
+    grid-column: 2 / 3;
+    height: fit-content;
+    border-radius: 5%;
+    border-color: black;
+}
+
+.box{
+    background-color: rgb(177, 173, 243);
+    grid-row: 5;
+    grid-column: 2 /3;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-radius: 5%;
+}
