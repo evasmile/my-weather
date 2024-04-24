@@ -27,10 +27,7 @@ app.post("/", async function(req,res){
     }
 })
 
- async function getWeather(city){
 
-   
-}
 
 
 
